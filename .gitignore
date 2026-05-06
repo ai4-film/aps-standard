@@ -1,0 +1,26 @@
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Build / dist (in case rendered to HTML/PDF later)
+_site/
+dist/
+build/
+*.pdf
+!docs/**/*.pdf
+
+# Working drafts
+*.draft.md
+draft-*/
+
+# Local notes
+NOTES.local.md
+TODO.local.md
