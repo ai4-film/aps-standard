@@ -10,7 +10,7 @@
 | **Autor** | AI4.FILM |
 | **Język** | Polski (wersja anglojęzyczna: [APS v1.0-EN](APS_v1.0_EN.md)) |
 | **Repozytorium** | https://github.com/ai4film/aps-standard |
-| **Kontakt** | standard@ai4.film |
+| **Kontakt** | hello@ai4.film |
 
 > *Dokument jest standardem otwartym. Każdy może go stosować, adaptować i rozpowszechniać zgodnie z licencją Apache 2.0.*
 
@@ -392,10 +392,10 @@ Poniższa lista kontrolna służy do szybkiej weryfikacji zgodności projektu ze
 
 ---
 
-Niniejszy dokument jest projektem do publicznej recenzji (Draft for Public Review). Uwagi i propozycje zmian prosimy kierować na adres: **standard@ai4.film** lub poprzez repozytorium GitHub: **https://github.com/ai4film/aps-standard**.
+Niniejszy dokument jest projektem do publicznej recenzji (Draft for Public Review). Uwagi i propozycje zmian prosimy kierować na adres: **hello@ai4.film** lub poprzez repozytorium GitHub: **https://github.com/ai4film/aps-standard**.
 
 Standard jest opublikowany na licencji Apache 2.0. Można go swobodnie używać, adaptować i redystrybuować, również w celach komercyjnych, pod warunkiem zachowania informacji o źródle.
 
 ---
 
-*APS v1.0 • AI4.FILM • Luty 2026 • Apache 2.0 • standard@ai4.film*
+*APS v1.0 • AI4.FILM • Luty 2026 • Apache 2.0 • hello@ai4.film*

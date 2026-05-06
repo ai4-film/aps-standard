@@ -10,7 +10,7 @@
 | **Author** | AI4.FILM |
 | **Language** | English (Polish version: [APS v1.0-PL](APS_v1.0_PL.md)) |
 | **Repository** | https://github.com/ai4film/aps-standard |
-| **Contact** | standard@ai4.film |
+| **Contact** | hello@ai4.film |
 
 > *This document is an open standard. Anyone may use, adapt, and distribute it under the Apache 2.0 license.*
 
@@ -392,10 +392,10 @@ The checklist below is for rapid verification of project compliance with the APS
 
 ---
 
-This document is a Draft for Public Review. Comments and proposed changes should be sent to: **standard@ai4.film** or via the GitHub repository: **https://github.com/ai4film/aps-standard**.
+This document is a Draft for Public Review. Comments and proposed changes should be sent to: **hello@ai4.film** or via the GitHub repository: **https://github.com/ai4film/aps-standard**.
 
 The standard is published under the Apache 2.0 license. It may be freely used, adapted, and redistributed, including for commercial purposes, provided that source attribution is preserved.
 
 ---
 
-*APS v1.0 • AI4.FILM • February 2026 • Apache 2.0 • standard@ai4.film*
+*APS v1.0 • AI4.FILM • February 2026 • Apache 2.0 • hello@ai4.film*

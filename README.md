@@ -99,7 +99,7 @@ To zaproszenie do **publicznej recenzji**. Zapraszamy do zgłaszania uwag filmow
 
 - 🐛 **Open an Issue** — flag a problem, ambiguity, or omission
 - 🔀 **Submit a Pull Request** — propose specific text changes
-- 📧 **Email us** — `standard@ai4.film`
+- 📧 **Email us** — `hello@ai4.film`
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for details. / Szczegóły w [CONTRIBUTING.md](CONTRIBUTING.md).
 
@@ -119,6 +119,6 @@ APS jest rozwijany przez **[AI4.FILM](https://ai4.film)** — inicjatywę buduj�
 
 <div align="center">
 
-**APS v1.0** · AI4.FILM · February 2026 · Apache 2.0 · [standard@ai4.film](mailto:standard@ai4.film)
+**APS v1.0** · AI4.FILM · February 2026 · Apache 2.0 · [hello@ai4.film](mailto:hello@ai4.film)
 
 </div>

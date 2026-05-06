@@ -54,7 +54,7 @@ Please keep both language versions in sync: a substantive change to one must be 
 #### 3. Email us
 
 For sensitive feedback, partnership inquiries, or anything that doesn't fit a public thread:
-**standard@ai4.film**
+**hello@ai4.film**
 
 ### Editorial principles
 
@@ -133,7 +133,7 @@ Prosimy utrzymywać obie wersje językowe w synchronizacji: merytoryczna zmiana 
 #### 3. Napisz do nas
 
 Dla feedbacku poufnego, zapytań partnerskich lub wszystkiego, co nie pasuje do publicznego wątku:
-**standard@ai4.film**
+**hello@ai4.film**
 
 ### Zasady redakcyjne
 
