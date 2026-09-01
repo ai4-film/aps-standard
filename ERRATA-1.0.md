@@ -2,7 +2,7 @@
 
 **Applies to:** AI Production Standard (APS) 1.0 — Draft for Public Review,
 published 6 May 2026
-**Issued:** August 2026
+**Issued:** September 2026
 **Version incorporating the corrections:** APS 1.0.1
 
 The corrections below address factual errors in Section 5 ("Compliance with the EU AI

@@ -8,7 +8,7 @@
 
 | | |
 |---|---|
-| **Wersja** | 1.0.1 — sierpień 2026 |
+| **Wersja** | 1.0.1 — wrzesień 2026 |
 | **Status** | Projekt roboczy (Draft for Public Review) |
 | **Licencja** | Apache License 2.0 — otwarty i bezpłatny |
 | **Autor** | Marcin Marczyk / AI4.FILM |
@@ -401,7 +401,7 @@ Poniższa lista kontrolna służy do szybkiej weryfikacji zgodności projektu ze
 
 | Wersja | Data | Zmiany |
 |---|---|---|
-| **1.0.1** | Sierpień 2026 | Errata do 1.0. Ograniczenie sekcji 5 do noty kontekstowej, usunięcie powołania na art. 13, korekta adresu repozytorium. Bez zmian w wymaganiach normatywnych. |
+| **1.0.1** | Wrzesień 2026 | Errata do 1.0. Ograniczenie sekcji 5 do noty kontekstowej, usunięcie powołania na art. 13, korekta adresu repozytorium. Bez zmian w wymaganiach normatywnych. |
 | **1.0** | Luty 2026 | Pierwsza wersja publiczna (Draft for Public Review). Sekcje: zasady ogólne, etapy produkcji (development, scenariusz, zdjęcia, postprodukcja video i audio), pakiet dostawy. |
 
 ---
@@ -440,4 +440,4 @@ Standard jest opublikowany na licencji Apache 2.0. Można go swobodnie używać,
 
 ---
 
-*APS v1.0.1 • AI4.FILM • sierpień 2026 • Apache 2.0 • hello@ai4.film*
+*APS v1.0.1 • AI4.FILM • wrzesień 2026 • Apache 2.0 • hello@ai4.film*

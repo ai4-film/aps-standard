@@ -44,7 +44,7 @@ In progress. A MAJOR change — requires a new declaration of conformity.
 
 ---
 
-## [1.0.1] — August 2026
+## [1.0.1] — September 2026
 
 Errata to version 1.0. A PATCH-level change. **No change to normative requirements** —
 productions conforming to 1.0 remain conformant with 1.0.1.

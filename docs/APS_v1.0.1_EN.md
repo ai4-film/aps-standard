@@ -8,7 +8,7 @@
 
 | | |
 |---|---|
-| **Version** | 1.0.1 — August 2026 |
+| **Version** | 1.0.1 — September 2026 |
 | **Status** | Draft for Public Review |
 | **License** | Apache License 2.0 — open and free |
 | **Author** | Marcin Marczyk / AI4.FILM |
@@ -399,7 +399,7 @@ The checklist below is for rapid verification of project compliance with the APS
 
 | Version | Date | Changes |
 |---|---|---|
-| **1.0.1** | August 2026 | Errata to 1.0. Section 5 reduced to a contextual note, the art. 13 citation removed, repository address corrected. No change to normative requirements. |
+| **1.0.1** | September 2026 | Errata to 1.0. Section 5 reduced to a contextual note, the art. 13 citation removed, repository address corrected. No change to normative requirements. |
 | **1.0** | February 2026 | First public version (Draft for Public Review). Sections: general principles, production stages (development, screenplay, principal photography, picture and audio post-production), delivery package. |
 
 ---
@@ -437,4 +437,4 @@ The standard is published under the Apache 2.0 license. It may be freely used, a
 
 ---
 
-*APS v1.0.1 • AI4.FILM • August 2026 • Apache 2.0 • hello@ai4.film*
+*APS v1.0.1 • AI4.FILM • September 2026 • Apache 2.0 • hello@ai4.film*
