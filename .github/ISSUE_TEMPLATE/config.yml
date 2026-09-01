@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: Discussions
+    url: https://github.com/ai4-film/aps-standard/discussions
+    about: Open-ended discussion not tied to a specific requirement — scope of the standard, industry practice, questions about applying APS in production.
+
+  - name: Direct contact
+    url: mailto:hello@ai4.film
+    about: Enquiries that do not belong in a public thread — institutional correspondence, legal review, cooperation.
+
+  - name: How to submit feedback
+    url: https://github.com/ai4-film/aps-standard/blob/main/CONTRIBUTING.md
+    about: Rules for submitting comments — what belongs in an errata, what is a change to a normative requirement, and how proposals are processed.
