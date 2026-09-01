@@ -11,7 +11,7 @@
 | **Wersja** | 1.0.1 — sierpień 2026 |
 | **Status** | Projekt roboczy (Draft for Public Review) |
 | **Licencja** | Apache License 2.0 — otwarty i bezpłatny |
-| **Autor** | [IMIĘ I NAZWISKO] / AI4.FILM |
+| **Autor** | Marcin Marczyk / AI4.FILM |
 | **Język** | Polski (wersja anglojęzyczna: [APS 1.0.1-EN](APS_v1.0.1_EN.md)) |
 | **Repozytorium** | https://github.com/ai4-film/aps-standard |
 | **Kontakt** | hello@ai4.film |
@@ -408,10 +408,11 @@ Poniższa lista kontrolna służy do szybkiej weryfikacji zgodności projektu ze
 
 **Metodologia opracowania**
 
-Standard został opracowany przez [IMIĘ I NAZWISKO], z wykorzystaniem narzędzi AI
-jako wsparcia analitycznego i redakcyjnego. Zakres użycia obejmował przegląd literatury
-i praktyki branżowej, analizę porównawczą, redakcję tekstu oraz weryfikację spójności
-terminologicznej.
+Standard został opracowany przez Marcina Marczyka, kierownika produkcji i producenta
+filmowego z dwudziestoletnim doświadczeniem, członka Stowarzyszenia Filmowców Polskich,
+z wykorzystaniem narzędzi AI jako wsparcia analitycznego i redakcyjnego. Zakres użycia
+obejmował przegląd literatury i praktyki branżowej, analizę porównawczą, redakcję tekstu
+oraz weryfikację spójności terminologicznej.
 
 Struktura standardu, dobór i treść wymagań normatywnych oraz wszystkie decyzje
 merytoryczne pochodzą od autora i wynikają z jego doświadczenia w produkcji

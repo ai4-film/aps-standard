@@ -11,7 +11,7 @@
 | **Version** | 1.0.1 — August 2026 |
 | **Status** | Draft for Public Review |
 | **License** | Apache License 2.0 — open and free |
-| **Author** | [FULL NAME] / AI4.FILM |
+| **Author** | Marcin Marczyk / AI4.FILM |
 | **Language** | English (Polish version: [APS 1.0.1-PL](APS_v1.0.1_PL.md)) |
 | **Repository** | https://github.com/ai4-film/aps-standard |
 | **Contact** | hello@ai4.film |
@@ -406,9 +406,11 @@ The checklist below is for rapid verification of project compliance with the APS
 
 **Drafting methodology**
 
-The standard was written by [FULL NAME], using AI tools for analytical and editorial
-support. That use covered review of the literature and of industry practice, comparative
-analysis, drafting of the text, and checking terminological consistency.
+The standard was written by Marcin Marczyk, a production manager and film producer with
+twenty years of experience and a member of the Polish Filmmakers Association (SFP), using
+AI tools for analytical and editorial support. Its scope covered a review of literature
+and industry practice, comparative analysis, editing, and verification of terminological
+consistency.
 
 The structure of the standard, the selection and wording of the normative requirements,
 and all substantive decisions are the author's, and follow from their experience in
