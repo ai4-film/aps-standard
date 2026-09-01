@@ -1,124 +1,122 @@
-<div align="center">
+# AI Production Standard (APS)
 
-# 🎬 AI Production Standard (APS)
+An open standard for documenting AI use and managing intellectual property rights
+in audiovisual production.
 
-**An open standard for documenting AI use in film and audiovisual production**
+**Current version: APS 1.0.1** — [download](../../releases/latest) · [errata to 1.0](ERRATA-1.0.md) · [changelog](CHANGELOG.md)
 
-*Otwarty standard dokumentowania użycia AI w produkcji filmowej i audiowizualnej*
+🇵🇱 [Wersja polska](README.pl.md)
 
-[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Status: Draft](https://img.shields.io/badge/status-draft_for_public_review-orange.svg)](#)
-[![Version: 1.0](https://img.shields.io/badge/version-1.0-green.svg)](#)
-
-[**English**](docs/APS_v1.0_EN.md) · [**Polski**](docs/APS_v1.0_PL.md) · [Contributing](CONTRIBUTING.md) · [Changelog](CHANGELOG.md)
-
-</div>
+> **Status: Draft for Public Review.** This document is a draft open to comment.
+> Version 1.0 was published on 6 May 2026. Work on version 2.0 is in progress —
+> see the [changelog](CHANGELOG.md) for scope.
 
 ---
 
-## 🇬🇧 English
+## Why this exists
 
-### What is APS?
+Studios and streaming platforms have legal departments, clearance houses and standing
+relationships with insurers. Chain-of-title documentation is generated there as a
+by-product of an existing process.
 
-**APS (AI Production Standard)** is an open industry standard that defines how film and audiovisual productions should document and manage intellectual property rights when using artificial intelligence tools — at every stage from development through delivery.
+Independent producers now generate **the same legal exposure** — one person with
+generative tools creates the same category of title defect as a post house — with none
+of the apparatus to document it. And evidence not captured during production cannot be
+manufactured afterwards. You cannot reconstruct a prompt, a provider's terms of service
+from two years ago, or a performer's consent once their position has changed.
 
-Think of it as **ISO 9001 for AI compliance in film production**: it tells producers *what* to document and *how* to organize their AI workflow, so that productions can satisfy distributors, streaming platforms, E&O insurers, festivals, and regulators (including the EU AI Act).
+APS is a minimum set of workable documentation requirements that allow a producer to
+demonstrate the scope of AI use to E&O insurers, distributors, funding bodies and
+co-producers.
 
-### Why does this matter?
+## Scope
 
-- 🎥 **Producers** need clarity: can I use this tool commercially? Who owns the output?
-- 🎞️ **Distributors and platforms** (Netflix, Disney+, Sundance) increasingly demand AI declarations.
-- ⚖️ **E&O insurers** require warranties producers cannot give without an AI audit trail.
-- 🇪🇺 **The EU AI Act** (Regulation 2024/1689) creates legal transparency obligations.
+- Classification of AI-involved content (Categories A / B / C)
+- AI Registry — a running record of tools, uses and licensing terms
+- Documentation of human creative contribution
+- Verification of provider terms of service
+- AI Disclosure as part of the delivery package
+- Stage-specific requirements: development, screenplay, breakdown and budget,
+  principal photography, picture post, sound post
 
-APS provides the **common language and minimum requirements** that the audiovisual industry is missing.
+Requirements are grouped into three levels — BASIC, EXTENDED and ENTERPRISE — reflecting
+the scale of the production. This structure is being removed in version 2.0; see the
+[changelog](CHANGELOG.md).
 
-### Three certification levels
+## What it is not
 
-| Level | For whom |
+- **Not legal advice.** Sections referring to legislation are informational only.
+- **Creates no presumption of conformity** with Regulation (EU) 2024/1689 or any other
+  instrument.
+- **Does not replace distribution platform requirements** or co-production agreements.
+- **Not a risk assessment tool.** The standard organises documentation; assessment
+  remains with the producer and their advisers.
+
+## Language versions
+
+| Version | Status |
 |---|---|
-| **BASIC** | Solo creators and every production using AI |
-| **EXTENDED** | Commercial productions intended for distribution |
-| **ENTERPRISE** | Studios, platforms, international co-productions |
+| Polish — [`APS_v1.0.1_PL.md`](docs/APS_v1.0.1_PL.md) | **Authoritative** |
+| English — [`APS_v1.0.1_EN.md`](docs/APS_v1.0.1_EN.md) | Reference translation |
 
-### Read the standard
+The Polish text governs in case of discrepancy. The standard's requirements are anchored
+in part in Polish copyright law, and the Polish version is the one submitted for legal
+review. Terminology follows the glossary in [`GLOSSARY.md`](GLOSSARY.md); terms drawn
+from Regulation (EU) 2024/1689 use the official English wording of that instrument.
 
-📖 **[APS v1.0 — English](docs/APS_v1.0_EN.md)**
+The question of which language version governs from 2.0 onward is open.
 
----
+## Repository contents
 
-## 🇵🇱 Polski
-
-### Czym jest APS?
-
-**APS (AI Production Standard)** to otwarty standard branżowy określający, jak produkcje filmowe i audiowizualne powinny dokumentować i zarządzać prawami własności intelektualnej przy użyciu narzędzi sztucznej inteligencji — na każdym etapie od developmentu po dostawę.
-
-Można o nim myśleć jak o **ISO 9001 dla zgodności AI w produkcji filmowej**: mówi producentom *co* dokumentować i *jak* organizować pracę z AI, aby produkcje spełniały wymagania dystrybutorów, platform streamingowych, ubezpieczycieli E&O, festiwali i regulatorów (w tym EU AI Act).
-
-### Dlaczego to ważne?
-
-- 🎥 **Producenci** potrzebują jasności: czy mogę używać tego narzędzia komercyjnie? Kto jest właścicielem wyniku?
-- 🎞️ **Dystrybutorzy i platformy** (Netflix, Disney+, Sundance) coraz częściej wymagają deklaracji AI.
-- ⚖️ **Ubezpieczyciele E&O** wymagają gwarancji, których producent nie udzieli bez śladu audytowego AI.
-- 🇪🇺 **EU AI Act** (rozporządzenie 2024/1689) wprowadza obowiązki transparentności prawnej.
-
-APS dostarcza **wspólnego języka i minimalnych wymagań**, których brakuje branży audiowizualnej.
-
-### Trzy poziomy zgodności
-
-| Poziom | Kogo dotyczy |
+| Path | Contents |
 |---|---|
-| **PODSTAWOWY** | Twórcy indywidualni i każda produkcja używająca AI |
-| **ROZSZERZONY** | Produkcje komercyjne przeznaczone do dystrybucji |
-| **ENTERPRISE** | Studia, platformy, koprodukcje międzynarodowe |
+| `docs/` | The standard — all versions, both languages |
+| `templates/` | Fillable templates: AI Registry, AI Disclosure, contract clauses, releases |
+| `annex/` | Compatibility annex and supporting material |
+| `ERRATA-1.0.md` | Corrections to version 1.0 |
+| `CHANGELOG.md` | Version history |
+| `VERSIONING.md` | Versioning policy and rules for declaring conformity |
+| `GLOSSARY.md` | PL/EN terminology, normative for translations |
+| `LEGAL-REFERENCES.md` | Register of legal citations with verification dates |
 
-### Przeczytaj standard
+## Declaring conformity
 
-📖 **[APS v1.0 — Polski](docs/APS_v1.0_PL.md)**
+A declaration must state the version:
+
+> Production conducted in accordance with the AI Production Standard (APS) 1.0.1 (2026).
+
+A declaration without a version is ineffective. See [`VERSIONING.md`](VERSIONING.md).
+
+## Comments and contributions
+
+- **On a specific requirement** — open an Issue citing the identifier (e.g. `APS-REG-010`)
+- **Open discussion** — Discussions tab
+- **Direct** — `hello@ai4.film`
+- **How to contribute** — see [`CONTRIBUTING.md`](CONTRIBUTING.md)
+
+Comments received during public review are recorded in the changelog, including those
+not adopted, with reasons.
+
+## How this standard was produced
+
+The standard was written by [FULL NAME], using AI tools for analytical and editorial
+support. Its structure, the selection and wording of requirements, and all substantive
+decisions are the author's.
+
+Statements referring to legislation are verified against primary sources — see
+[`LEGAL-REFERENCES.md`](LEGAL-REFERENCES.md). Unverified statements are not published.
+
+The standard has not yet undergone external legal review. Review is scheduled ahead of
+version 2.0.
+
+Under the classification in Chapter 2 of the standard itself, this document is
+**Category B** content.
+
+## Licence
+
+[Apache License 2.0](LICENSE). The standard may be used, adapted and redistributed freely,
+including commercially, with attribution.
 
 ---
 
-## 📂 Repository structure
-
-```
-aps-standard/
-├── README.md                  ← You are here
-├── LICENSE                    ← Apache License 2.0
-├── CHANGELOG.md               ← Version history
-├── CONTRIBUTING.md            ← How to contribute
-└── docs/
-    ├── APS_v1.0_EN.md         ← English version of the standard
-    └── APS_v1.0_PL.md         ← Polish version of the standard
-```
-
-## 🤝 Contributing / Współtworzenie
-
-This is a **Draft for Public Review**. We welcome feedback from filmmakers, lawyers, insurers, distributors, technologists, and anyone else with skin in the game.
-
-To zaproszenie do **publicznej recenzji**. Zapraszamy do zgłaszania uwag filmowców, prawników, ubezpieczycieli, dystrybutorów, technologów i każdego, kogo dotyczy ten temat.
-
-- 🐛 **Open an Issue** — flag a problem, ambiguity, or omission
-- 🔀 **Submit a Pull Request** — propose specific text changes
-- 📧 **Email us** — `hello@ai4.film`
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for details. / Szczegóły w [CONTRIBUTING.md](CONTRIBUTING.md).
-
-## 📜 License / Licencja
-
-This standard is released under the [**Apache License 2.0**](LICENSE). You are free to use, adapt, and redistribute it — including commercially — provided that attribution is preserved.
-
-Standard udostępniony na licencji [**Apache License 2.0**](LICENSE). Możesz go swobodnie używać, adaptować i redystrybuować — również komercyjnie — pod warunkiem zachowania informacji o źródle.
-
-## 🌐 About AI4.FILM
-
-APS is developed by **[AI4.FILM](https://ai4.film)** — an initiative building practical compliance infrastructure for filmmakers in the age of generative AI. The standard is open and free; the AI4.FILM Platform is the optional commercial tool that helps implement it.
-
-APS jest rozwijany przez **[AI4.FILM](https://ai4.film)** — inicjatywę budującą praktyczną infrastrukturę zgodności dla filmowców w erze generatywnej AI. Standard jest otwarty i bezpłatny; platforma AI4.FILM to opcjonalne narzędzie komercyjne wspierające jego wdrożenie.
-
----
-
-<div align="center">
-
-**APS v1.0** · AI4.FILM · February 2026 · Apache 2.0 · [hello@ai4.film](mailto:hello@ai4.film)
-
-</div>
+*AI4.FILM · Apache 2.0 · hello@ai4.film*

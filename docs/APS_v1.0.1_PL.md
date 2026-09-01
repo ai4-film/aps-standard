@@ -1,19 +1,19 @@
-# AI Production Standard (APS) v1.0
+# AI Production Standard (APS) 1.0.1
 
 **Standard dokumentowania i zarządzania prawami własności intelektualnej przy użyciu narzędzi AI w produkcji filmowej**
 
-> ⚠️ **Wersja wycofana.** APS 1.0 zawiera błędy rzeczowe w sekcji 5.
-> Aktualna wersja: **APS 1.0.1**. Wykaz sprostowań: [ERRATA-1.0.md](../ERRATA-1.0.md)
-> Wymagania normatywne (APS-*) pozostają aktualne bez zmian.
+> **APS 1.0.1** — wersja zawierająca sprostowania do APS 1.0.
+> Wykaz zmian: [ERRATA-1.0.md](../ERRATA-1.0.md) · [CHANGELOG.md](../CHANGELOG.md)
+> Wymagania normatywne nie uległy zmianie względem wersji 1.0.
 
 | | |
 |---|---|
-| **Wersja** | 1.0 — luty 2026 |
+| **Wersja** | 1.0.1 — sierpień 2026 |
 | **Status** | Projekt roboczy (Draft for Public Review) |
 | **Licencja** | Apache License 2.0 — otwarty i bezpłatny |
-| **Autor** | AI4.FILM |
-| **Język** | Polski (wersja anglojęzyczna: [APS v1.0-EN](APS_v1.0_EN.md)) |
-| **Repozytorium** | https://github.com/ai4film/aps-standard |
+| **Autor** | [IMIĘ I NAZWISKO] / AI4.FILM |
+| **Język** | Polski (wersja anglojęzyczna: [APS 1.0.1-EN](APS_v1.0.1_EN.md)) |
+| **Repozytorium** | https://github.com/ai4-film/aps-standard |
 | **Kontakt** | hello@ai4.film |
 
 > *Dokument jest standardem otwartym. Każdy może go stosować, adaptować i rozpowszechniać zgodnie z licencją Apache 2.0.*
@@ -27,7 +27,7 @@
 - [2. Zarządzanie Chain of Title przy użyciu AI — zasady ogólne](#2-zarządzanie-chain-of-title-przy-użyciu-ai--zasady-ogólne)
 - [3. Wymagania dla poszczególnych etapów produkcji](#3-wymagania-dla-poszczególnych-etapów-produkcji)
 - [4. Pakiet dostawy i archiwizacja](#4-pakiet-dostawy-i-archiwizacja)
-- [5. Zgodność z EU AI Act](#5-zgodność-z-eu-ai-act)
+- [5. Kontekst regulacyjny](#5-kontekst-regulacyjny)
 - [6. Lista kontrolna APS — Checklist](#6-lista-kontrolna-aps--checklist)
 - [7. Historia wersji i status prawny](#7-historia-wersji-i-status-prawny)
 
@@ -341,15 +341,24 @@ Dokumentacja APS powinna być archiwizowana przez okres nie krótszy niż czas o
 
 ---
 
-## 5. Zgodność z EU AI Act
+## 5. Kontekst regulacyjny
 
-Rozporządzenie UE 2024/1689 (EU AI Act) wprowadza obowiązki dotyczące transparentności istotne dla produkcji audiowizualnych:
+Obowiązki w zakresie przejrzystości wynikające z artykułu 50 rozporządzenia (UE)
+2024/1689 (EU AI Act) stosuje się od 2 sierpnia 2026 roku. Producent audiowizualny
+występuje w tych przepisach jako podmiot stosujący system AI (deployer), nie jako
+dostawca systemu.
 
-| Artykuł | Wymóg EU AI Act | Jak APS pomaga |
-|---|---|---|
-| **Art. 50 ust. 4** | Treści generowane przez AI muszą być oznaczone jako wytworzone lub zmodyfikowane przez AI. | Klasyfikacja Kat. A/B/C + AI Disclosure tworzą wymagany ślad. |
-| **Art. 50 ust. 2** | Systemy AI generujące treści deepfake muszą informować o sztucznym charakterze. | APS-PRD-001 i APS-VFX-005 wymagają zgody i oznaczenia dla synthetic media. |
-| **Art. 13** | Systemy AI wysokiego ryzyka wymagają przejrzystego dokumentowania działania. | Rejestr AI zawiera dokumentację wystarczającą do spełnienia tego wymogu. |
+Dokumentacja prowadzona zgodnie z APS — w szczególności Rejestr AI oraz klasyfikacja
+treści — stanowi podstawę faktyczną pozwalającą producentowi ustalić zakres własnych
+obowiązków informacyjnych i sporządzić wymagane ujawnienia.
+
+Szczegółowe mapowanie wymagań APS na obowiązki wynikające z rozporządzenia jest
+opracowywane we współpracy z kancelarią prawną i zostanie opublikowane w wersji 2.0.
+
+> *UWAGA: Niniejszy standard nie stanowi opinii prawnej ani nie tworzy domniemania
+> zgodności z rozporządzeniem (UE) 2024/1689 lub jakimkolwiek innym aktem prawnym.
+> Ocena zakresu obowiązków regulacyjnych konkretnej produkcji wymaga analizy
+> indywidualnej.*
 
 ---
 
@@ -392,14 +401,42 @@ Poniższa lista kontrolna służy do szybkiej weryfikacji zgodności projektu ze
 
 | Wersja | Data | Zmiany |
 |---|---|---|
+| **1.0.1** | Sierpień 2026 | Errata do 1.0. Ograniczenie sekcji 5 do noty kontekstowej, usunięcie powołania na art. 13, korekta adresu repozytorium. Bez zmian w wymaganiach normatywnych. |
 | **1.0** | Luty 2026 | Pierwsza wersja publiczna (Draft for Public Review). Sekcje: zasady ogólne, etapy produkcji (development, scenariusz, zdjęcia, postprodukcja video i audio), pakiet dostawy. |
 
 ---
 
-Niniejszy dokument jest projektem do publicznej recenzji (Draft for Public Review). Uwagi i propozycje zmian prosimy kierować na adres: **hello@ai4.film** lub poprzez repozytorium GitHub: **https://github.com/ai4film/aps-standard**.
+**Metodologia opracowania**
+
+Standard został opracowany przez [IMIĘ I NAZWISKO], z wykorzystaniem narzędzi AI
+jako wsparcia analitycznego i redakcyjnego. Zakres użycia obejmował przegląd literatury
+i praktyki branżowej, analizę porównawczą, redakcję tekstu oraz weryfikację spójności
+terminologicznej.
+
+Struktura standardu, dobór i treść wymagań normatywnych oraz wszystkie decyzje
+merytoryczne pochodzą od autora i wynikają z jego doświadczenia w produkcji
+audiowizualnej.
+
+Twierdzenia odnoszące się do przepisów prawa podlegają weryfikacji wobec źródeł
+pierwotnych. Rejestr tych odwołań wraz z datą ostatniego sprawdzenia prowadzony jest
+w pliku `LEGAL-REFERENCES.md` w repozytorium standardu. Twierdzenia niezweryfikowane
+nie są publikowane — z tego powodu w wersji 1.0.1 ograniczono sekcję 5 do noty
+kontekstowej.
+
+Standard nie przeszedł dotąd zewnętrznego przeglądu prawnego. Przegląd jest zaplanowany
+przed publikacją wersji 2.0. Dokument ma status *Draft for Public Review* i pozostaje
+otwarty na uwagi.
+
+Zgodnie z klasyfikacją z rozdziału 2 niniejszego standardu, dokument stanowi treść
+**kategorii B** — powstałą z udziałem narzędzi AI przy zachowaniu znaczącego wkładu
+twórczego człowieka.
+
+---
+
+Niniejszy dokument jest projektem do publicznej recenzji (Draft for Public Review). Uwagi i propozycje zmian prosimy kierować na adres: **hello@ai4.film** lub poprzez repozytorium GitHub: **https://github.com/ai4-film/aps-standard**.
 
 Standard jest opublikowany na licencji Apache 2.0. Można go swobodnie używać, adaptować i redystrybuować, również w celach komercyjnych, pod warunkiem zachowania informacji o źródle.
 
 ---
 
-*APS v1.0 • AI4.FILM • Luty 2026 • Apache 2.0 • hello@ai4.film*
+*APS v1.0.1 • AI4.FILM • sierpień 2026 • Apache 2.0 • hello@ai4.film*
