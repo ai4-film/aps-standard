@@ -184,4 +184,4 @@ Przyjęcie wersji 1.0.1 jako bazy roboczej, powołanie Rady w ramach grupy roboc
 
 ---
 
-Kontakt · Contact: `standard@ai4.film`
+Kontakt · Contact: `hello@ai4.film`

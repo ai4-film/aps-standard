@@ -102,4 +102,4 @@ przeniesienia lub licencji na powyższych zasadach.
 
 ---
 
-Kontakt w sprawach znaku · Contact on marks: `standard@ai4.film`
+Kontakt w sprawach znaku · Contact on marks: `hello@ai4.film`

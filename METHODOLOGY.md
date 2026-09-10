@@ -109,4 +109,4 @@ do czego narzędzie posłużyło, na jakim etapie i na jakim materiale.
 
 ---
 
-Kontakt · Contact: `standard@ai4.film`
+Kontakt · Contact: `hello@ai4.film`
