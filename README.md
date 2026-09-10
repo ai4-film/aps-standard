@@ -6,7 +6,9 @@ własności intelektualnej w produkcji audiowizualnej.
 *An open standard for documenting AI use and managing intellectual property rights in
 audiovisual production.*
 
-**Aktualna wersja / current version: APS 1.0.1** — [pobierz / download](../../releases/latest) · [errata do 1.0](ERRATA-1.0.md) · [historia zmian / changelog](CHANGELOG.md)
+**Pierwsza publikacja / first published: 6 maja / May 2026** · **aktualna wersja / current version: APS 1.0.1 (2 września / September 2026)**
+
+[pobierz / download](../../releases/latest) · [errata do 1.0](ERRATA-1.0.md) · [historia zmian / changelog](CHANGELOG.md) · [zarządzanie / governance](GOVERNANCE.md) · [znaki / trademarks](TRADEMARK.md) · [implementacje / implementations](IMPLEMENTATIONS.md) · [metodologia / methodology](METHODOLOGY.md)
 
 ---
 
@@ -25,8 +27,9 @@ requirements: classification of AI-involved content, an AI Registry, documentati
 human creative contribution, verification of provider terms of service, and AI Disclosure
 as part of the delivery package.
 
-The current version is **APS 1.0.1**, status *Draft for Public Review*; work on version
-2.0 is in progress. The full English text is in
+The current version is **APS 1.0.1**, published 2 September 2026, status *Draft for
+Public Review*; APS was first published on 6 May 2026 and work on version 2.0 is in
+progress. The full English text is in
 [`docs/APS_v1.0.1_EN.md`](docs/APS_v1.0.1_EN.md). The standard is published in Polish and
 English; **the Polish text governs** in case of discrepancy, as part of its requirements
 rest on Polish copyright law. Terminology follows [`GLOSSARY.md`](GLOSSARY.md).
@@ -34,14 +37,42 @@ rest on Polish copyright law. Terminology follows [`GLOSSARY.md`](GLOSSARY.md).
 APS is not legal advice and creates no presumption of conformity with Regulation (EU)
 2024/1689 or any other instrument.
 
+### Authorship and provenance
+
+**Author:** Marcin Marczyk, Udyssey Creative Technologies, Warsaw, Poland.
+
+**License:** Apache License, Version 2.0 — see [`LICENSE`](LICENSE) and
+[`NOTICE`](NOTICE).
+
+**Version:** 1.0.1, published 2 September 2026. First published: 6 May 2026.
+
+**Repository:** https://github.com/ai4-film/aps-standard
+
+**Methodology note:** AI tools were used in the preparation of this specification, for
+organising material, editing and source analysis. Those tools are not co-authors; the
+author of the specification is solely the natural person named above. The tools used and
+the scope of their use are recorded in [`METHODOLOGY.md`](METHODOLOGY.md), which points to
+the disclosure colophon of each published version.
+
+**Marks:** the Apache 2.0 license grants no trademark rights. The names "APS" and "AI
+Production Standard" may be used to describe the origin of the work; designating an
+implementation as conforming to the standard is governed by the conformance procedure.
+See [`TRADEMARK.md`](TRADEMARK.md).
+
+**Governance:** the standard is maintained by the specification editor under
+[`VERSIONING.md`](VERSIONING.md) and [`CONTRIBUTING.md`](CONTRIBUTING.md). A cross-
+organisational model has been proposed and is published, unadopted, in
+[`GOVERNANCE.md`](GOVERNANCE.md). Tools implementing APS are listed in the open register
+[`IMPLEMENTATIONS.md`](IMPLEMENTATIONS.md).
+
 Comments: open an Issue citing the requirement identifier (e.g. `APS-REG-010`), use the
 Discussions tab, or write to `hello@ai4.film`. See [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 ---
 
 > **Status: Draft for Public Review.** Dokument jest projektem otwartym na uwagi.
-> Wersja 1.0 została opublikowana 6 maja 2026. Trwają prace nad wersją 2.0 —
-> zakres zmian w [CHANGELOG](CHANGELOG.md).
+> Pierwsza publikacja: 6 maja 2026. Aktualna wersja: 1.0.1 z 2 września 2026.
+> Trwają prace nad wersją 2.0 — zakres zmian w [CHANGELOG](CHANGELOG.md).
 
 ## Po co to jest
 
@@ -112,6 +143,13 @@ Kwestia tego, czy od wersji 2.0 angielski stanie się równorzędny, pozostaje o
 | `VERSIONING.md` | Polityka wersjonowania i zasady deklarowania zgodności |
 | `GLOSSARY.md` | Terminologia PL/EN, normatywna dla tłumaczeń |
 | `LEGAL-REFERENCES.md` | Rejestr odwołań do przepisów z datą weryfikacji |
+| `CONTRIBUTING.md` | Zasady współtworzenia i tryb konsultacji |
+| `GOVERNANCE.md` | Proponowany model zarządzania standardem — **propozycja, nie stan przyjęty** |
+| `IMPLEMENTATIONS.md` | Otwarty rejestr narzędzi wdrażających APS |
+| `TRADEMARK.md` | Zasady posługiwania się nazwą i znakiem |
+| `METHODOLOGY.md` | Rejestr metodologiczny niezależny od wersji; odsyła do kolofonów |
+| `NOTICE` | Nota autorstwa wymagana przez licencję Apache 2.0 |
+| `CITATION.cff` | Metadane cytowania |
 
 ## Jak deklarować zgodność
 
@@ -126,6 +164,8 @@ Deklaracja bez wskazania wersji jest bezskuteczna. Zasady w [`VERSIONING.md`](VE
 - **Uwagi do konkretnego wymagania** — Issue z podaniem identyfikatora (np. `APS-REG-010`)
 - **Dyskusja otwarta** — zakładka Discussions
 - **Kontakt bezpośredni** — `hello@ai4.film`
+- **Zgłoszenie wdrożenia** — Issue z etykietą `implementation`, zob.
+  [`IMPLEMENTATIONS.md`](IMPLEMENTATIONS.md)
 - **Jak współtworzyć** — zob. [`CONTRIBUTING.md`](CONTRIBUTING.md)
 
 Uwagi zgłoszone w recenzji publicznej są odnotowywane w CHANGELOG, także wtedy, gdy nie
@@ -138,6 +178,11 @@ z dwudziestoletnim doświadczeniem, członek Stowarzyszenia Filmowców Polskich,
 z wykorzystaniem narzędzi AI jako wsparcia analitycznego i redakcyjnego. Struktura, dobór
 i treść wymagań oraz decyzje merytoryczne pochodzą od autora.
 
+Narzędzia te nie są współautorami; autorem specyfikacji jest wyłącznie wskazana wyżej
+osoba fizyczna. Wykaz narzędzi i zakres ich użycia prowadzony jest w
+[`METHODOLOGY.md`](METHODOLOGY.md), który odsyła do kolofonu ujawnienia w każdej
+opublikowanej wersji.
+
 Twierdzenia odnoszące się do przepisów prawa podlegają weryfikacji wobec źródeł
 pierwotnych — rejestr w [`LEGAL-REFERENCES.md`](LEGAL-REFERENCES.md). Twierdzenia
 niezweryfikowane nie są publikowane.
@@ -147,10 +192,38 @@ przed wersją 2.0.
 
 Zgodnie z klasyfikacją z rozdziału 2 standardu, dokument stanowi treść **kategorii B**.
 
+## Autorstwo i proweniencja
+
+**Autor:** Marcin Marczyk, Udyssey Creative Technologies, Warszawa.
+
+**Licencja:** Apache License, Version 2.0 — zob. [`LICENSE`](LICENSE) i
+[`NOTICE`](NOTICE).
+
+**Wersja:** 1.0.1, opublikowana 2 września 2026. Pierwsza publikacja: 6 maja 2026.
+
+**Repozytorium:** https://github.com/ai4-film/aps-standard
+
+**Nota metodologiczna:** przy opracowaniu specyfikacji korzystano z narzędzi sztucznej
+inteligencji, w zakresie porządkowania materiału, redakcji i analizy źródeł — zob.
+[`METHODOLOGY.md`](METHODOLOGY.md).
+
+**Znaki:** licencja Apache 2.0 nie udziela praw do znaków towarowych. Nazwy „APS"
+i „AI Production Standard" mogą być używane do wskazania pochodzenia utworu; prawo do
+oznaczania implementacji jako zgodnych ze standardem określa tryb potwierdzania
+zgodności — zob. [`TRADEMARK.md`](TRADEMARK.md).
+
+**Zarządzanie:** standard utrzymuje redaktor specyfikacji, w trybie
+[`VERSIONING.md`](VERSIONING.md) i [`CONTRIBUTING.md`](CONTRIBUTING.md). Model
+ponadorganizacyjny został zaproponowany i opublikowany — jako propozycja, nie stan
+przyjęty — w [`GOVERNANCE.md`](GOVERNANCE.md). Narzędzia wdrażające APS wpisywane są do
+otwartego rejestru [`IMPLEMENTATIONS.md`](IMPLEMENTATIONS.md).
+
 ## Licencja
 
 [Apache License 2.0](LICENSE). Standard można swobodnie stosować, adaptować
-i redystrybuować, również komercyjnie, z zachowaniem informacji o źródle.
+i redystrybuować, również komercyjnie, z zachowaniem informacji o źródle. Redystrybucja
+zachowuje plik [`NOTICE`](NOTICE) i oznaczenie zmian, zgodnie z art. 4 licencji. Licencja
+nie udziela praw do znaków — zob. [`TRADEMARK.md`](TRADEMARK.md).
 
 ---
 
