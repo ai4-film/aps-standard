@@ -11,6 +11,33 @@ w kolofonie „Metodologia opracowania" (`docs/APS_v1.0.1_*.md`) — w jednym mi
 w pełnym brzmieniu i trwale. Znaczniki w metadanych gita dawałyby rejestr wyrywkowy,
 sugerujący nieprawdziwie, że commity bez znacznika powstały bez udziału narzędzi.
 
+## Polityka językowa
+
+**Kryterium: czy tekst czyta instytucja albo producent, czy tylko ktoś pracujący
+w repozytorium.** Pierwsze jest dwujęzyczne, drugie po angielsku.
+
+| Zakres | Język |
+|---|---|
+| `docs/APS_*.md` | polski (rozstrzygający) + angielski (tłumaczenie referencyjne) |
+| `README.md` | dwujęzyczny, EN nad PL |
+| `ERRATA-*.md` | dwujęzyczny, EN nad PL |
+| `CONTRIBUTING.md`, szablony Issues | dwujęzyczne |
+| Opisy wydań (GitHub Releases) | dwujęzyczne, EN nad PL, oddzielone poziomym separatorem |
+| `CHANGELOG.md`, `VERSIONING.md`, `LEGAL-REFERENCES.md` | wyłącznie angielski |
+| Etykiety, milestone'y, wiadomości commitów | wyłącznie angielski |
+
+`GLOSSARY.md` jest dwujęzyczny z natury — polszczyzna jest tam treścią, nie tłumaczeniem.
+`CLAUDE.md` nie jest dokumentacją publiczną, tylko konfiguracją projektu.
+
+Uzasadnienie. Standard czytają polscy producenci i polskie instytucje, więc musi istnieć
+po polsku; wersja angielska obsługuje odbiorcę zagranicznego. To samo dotyczy każdego
+dokumentu, na który taki czytelnik trafia z zewnątrz — erraty, README i zasad
+współtworzenia. Warstwa techniczna repozytorium jest inna: czyta ją osoba już będąca
+w kontekście GitHuba, a utrzymywanie jej w dwóch językach podwaja pracę przy każdej
+zmianie.
+
+Nie tłumacz istniejących plików bez wyraźnego polecenia.
+
 ## Wersje opublikowane
 
 Opublikowana wersja standardu nigdy nie jest modyfikowana — zob. `VERSIONING.md`.

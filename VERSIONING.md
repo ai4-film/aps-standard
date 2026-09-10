@@ -68,6 +68,11 @@ affected.
 
 Whether English becomes authoritative or co-authoritative from 2.0 is an open question.
 
+The standard itself is published in Polish and English, as are the documents a producer
+or an institution may reach from outside the repository: the README, the errata and the
+contributing guidelines. The internal documentation — this policy, `CHANGELOG.md` and
+`LEGAL-REFERENCES.md` — is maintained in English only.
+
 ## Releases and archiving
 
 - Each version receives a repository tag and a GitHub Release with MD, PDF and DOCX
