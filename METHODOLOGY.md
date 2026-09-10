@@ -15,8 +15,8 @@ colophons and states the rules that apply to work on future versions.
 
 The author of the specification is Marcin Marczyk (Udyssey Creative Technologies,
 Warsaw). AI tools are not co-authors. Their support was analytical and editorial; the
-structure of the standard, the selection and wording of the normative requirements, and
-all substantive decisions are the author's.
+structure of the standard, its normative scope, the classification of creative
+contribution, and all substantive decisions are the author's.
 
 ### Version colophons
 
@@ -31,16 +31,17 @@ versions.
 
 ### Tools and scope of use
 
-<!-- TO BE COMPLETED BY THE AUTHOR. One row per tool actually used, with the version or
-     the period of use. Until the table is filled, the colophon of version 1.0.1 remains
-     the only disclosure. -->
+| Tool | Role in the work on the document | Period |
+|---|---|---|
+| Claude (Anthropic) | organising the material, copy-editing, analysis of sources, translation of the English version | February 2026 — ongoing |
+| Claude Code (Anthropic) | work in the repository: file structure, terminological consistency, preparation of versions for publication | May 2026 — ongoing |
 
-| Tool | Provider | Version / period of use | Scope of use |
-|---|---|---|---|
-| _to be completed_ | | | |
+The role is described in the same terms the standard requires of a production: what the
+tool was used for, at what stage, and on what material.
 
-Scope of use is described in the same terms the standard requires of a production:
-what the tool was used for, at what stage, and on what material.
+The support was analytical and editorial. No statement about the law was adopted on the
+basis of a tool's output — see the rule below and the register in
+[`LEGAL-REFERENCES.md`](LEGAL-REFERENCES.md).
 
 ### Rules applying to work on subsequent versions
 
@@ -69,8 +70,8 @@ pracy nad wersjami przyszłymi.
 
 Autorem specyfikacji jest Marcin Marczyk (Udyssey Creative Technologies, Warszawa).
 Narzędzia sztucznej inteligencji nie są współautorami. Ich wsparcie miało charakter
-analityczny i redakcyjny; struktura standardu, dobór i treść wymagań normatywnych oraz
-wszystkie decyzje merytoryczne pochodzą od autora.
+analityczny i redakcyjny; struktura standardu, jego zakres normatywny, klasyfikacja
+wkładu twórczego oraz wszystkie rozstrzygnięcia merytoryczne pochodzą od autora.
 
 ### Kolofony wersji
 
@@ -85,16 +86,17 @@ obiema wersjami.
 
 ### Narzędzia i zakres użycia
 
-<!-- DO UZUPEŁNIENIA PRZEZ AUTORA. Jeden wiersz na narzędzie faktycznie użyte, z wersją
-     albo okresem użycia. Do czasu wypełnienia tabeli jedynym ujawnieniem pozostaje
-     kolofon wersji 1.0.1. -->
+| Narzędzie | Rola w pracy nad dokumentem | Okres |
+|---|---|---|
+| Claude (Anthropic) | porządkowanie materiału, redakcja językowa, analiza źródeł, tłumaczenie wersji angielskiej | luty 2026 — nadal |
+| Claude Code (Anthropic) | praca w repozytorium: struktura plików, spójność terminologiczna, przygotowanie wersji do publikacji | maj 2026 — nadal |
 
-| Narzędzie | Dostawca | Wersja / okres użycia | Zakres użycia |
-|---|---|---|---|
-| _do uzupełnienia_ | | | |
+Rolę opisuje się w tych samych kategoriach, jakich standard wymaga od produkcji: do czego
+narzędzie posłużyło, na jakim etapie i na jakim materiale.
 
-Zakres użycia opisuje się w tych samych kategoriach, jakich standard wymaga od produkcji:
-do czego narzędzie posłużyło, na jakim etapie i na jakim materiale.
+Zakres wsparcia był analityczny i redakcyjny. Żadne twierdzenie o stanie prawnym nie
+zostało przyjęte na podstawie wyniku narzędzia — zob. zasadę niżej i rejestr
+w [`LEGAL-REFERENCES.md`](LEGAL-REFERENCES.md).
 
 ### Zasady obowiązujące przy pracy nad kolejnymi wersjami
 
