@@ -1,0 +1,35 @@
+APS (AI Production Standard)
+Copyright 2026 Marcin Marczyk
+
+This work is part of the AI4.FILM initiative (https://ai4.film).
+
+Author: Marcin Marczyk, Udyssey Creative Technologies, Warsaw, Poland.
+Contact: standard@ai4.film
+
+First published: 6 May 2026.
+Current version: 1.0.1, published 2 September 2026.
+Repository: https://github.com/ai4-film/aps-standard
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this work except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Any redistribution of this work or of derivative works must retain this
+NOTICE file, the attribution above, and a copy of the License, and must
+carry prominent notices stating that files have been changed, in
+accordance with Section 4 of the License.
+
+This License does not grant permission to use the trade names,
+trademarks, service marks, or product names of the author, including
+"APS" and "AI Production Standard", except as required for reasonable
+and customary use in describing the origin of the work. See
+TRADEMARK.md.
+
+Methodology note: AI tools were used in the preparation of this
+specification, for organising material, editing and source analysis.
+Those tools are not co-authors. The author of the specification is
+solely the natural person named above. The disclosure for each
+published version is in that version's "Metodologia opracowania"
+colophon; see METHODOLOGY.md.
