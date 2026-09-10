@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+title: "APS (AI Production Standard)"
+abstract: >-
+  An open standard for documenting AI use and managing intellectual property
+  rights in audiovisual production. Published in Polish and English; the Polish
+  text governs.
+message: "If you reference this standard, please cite it as below."
+type: standard
+authors:
+  - family-names: Marczyk
+    given-names: Marcin
+    affiliation: "Udyssey Creative Technologies"
+    city: Warsaw
+    country: PL
+    # orcid: "https://orcid.org/0000-0000-0000-0000"   # TO BE COMPLETED, if the author has an ORCID
+repository-code: "https://github.com/ai4-film/aps-standard"
+url: "https://ai4.film"
+license: Apache-2.0
+# Reflects the most recently published version. Bump on release, not on merge.
+version: "1.0.1"
+date-released: "2026-09-02"
+keywords:
+  - AI
+  - film production
+  - provenance
+  - chain of title
+  - AI disclosure
+  - audiovisual
+# doi: "10.5281/zenodo.XXXXXXX"   # TO BE COMPLETED after registration in Zenodo

@@ -36,6 +36,16 @@ is not altered.
 
 Moving a requirement from optional to mandatory is always a MAJOR change.
 
+## Who decides
+
+This policy answers the question of *how* a version comes into being. The question of
+*who* decides is answered by [`GOVERNANCE.md`](GOVERNANCE.md).
+
+Until the model set out there is adopted, the standard is maintained by the specification
+editor. Every substantive proposal is submitted publicly, with a consultation period of no
+less than 30 days, as described in [`CONTRIBUTING.md`](CONTRIBUTING.md). **A change
+introduced outside that procedure is not a version of the standard.**
+
 ## Version applicability in production
 
 1. A production declares its APS version **at the start of the project** and records it
@@ -67,6 +77,11 @@ Correcting a translation error is a PATCH-level change; the authoritative text i
 affected.
 
 Whether English becomes authoritative or co-authoritative from 2.0 is an open question.
+
+The standard itself is published in Polish and English, as are the documents a producer
+or an institution may reach from outside the repository: the README, the errata and the
+contributing guidelines. The internal documentation — this policy, `CHANGELOG.md` and
+`LEGAL-REFERENCES.md` — is maintained in English only.
 
 ## Releases and archiving
 

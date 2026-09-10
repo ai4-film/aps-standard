@@ -44,7 +44,53 @@ In progress. A MAJOR change — requires a new declaration of conformity.
 
 ---
 
-## [1.0.1] — September 2026
+## [1.0.2] — pending publication
+
+A PATCH-level change adding the attribution and governance layer of the repository.
+**No normative requirement (`APS-*`) is changed, added or removed**, no requirement
+identifier is altered, and no text of a published version in `docs/` is touched.
+A declaration of conformity with 1.0 or 1.0.1 remains valid and requires no action.
+
+> The date of publication is set when the version is released, in accordance with
+> [`VERSIONING.md`](VERSIONING.md). The version designation refers to the date of
+> publication, not to the date the change was prepared.
+
+### Added
+- `NOTICE` — attribution required by Section 4 of the Apache 2.0 licence, with the
+  reservation of trade names and marks
+- `GOVERNANCE.md` — proposed cross-organisational model for governing the standard,
+  published **as a proposal, not as an adopted state**, together with the editor's
+  disclosure of commercial interest
+- `TRADEMARK.md` — rules for using the names "APS" and "AI Production Standard",
+  separating freedom to implement from freedom to use the name; published as a draft
+  policy pending registration
+- `IMPLEMENTATIONS.md` — open register of tools and systems implementing APS, with the
+  submission procedure. Listing is free of charge, non-exclusive, and is not a
+  certification or a vendor recommendation
+- `METHODOLOGY.md` — version-independent methodological register pointing to the
+  disclosure colophon of each published version, which remains authoritative
+- `CITATION.cff` — citation metadata
+- `.github/ISSUE_TEMPLATE/implementation.md` — bilingual template for implementation
+  register entries
+- `README.md`: authorship and provenance block — author, licence, version, dates,
+  repository, methodology note, marks and governance, in both language versions
+- `CONTRIBUTING.md`: consultation procedure for substantive proposals — public
+  submission and a period of no less than 30 days, with the rule that a change
+  introduced outside that procedure is not a version of the standard
+- `CLAUDE.md`: sections on technological neutrality, on the name and conformance, and on
+  the procedure for changes
+
+### Changed
+- `README.md`: the date of first publication (6 May 2026) and the date of the current
+  version (1.0.1, 2 September 2026) are stated separately. Previously the current version
+  designation stood next to the date of first publication
+- `VERSIONING.md`: reference to `GOVERNANCE.md` where the question of who decides on
+  changes arises
+- `CHANGELOG.md`: the 1.0.1 entry now carries the day of publication, not only the month
+
+---
+
+## [1.0.1] — published 2 September 2026
 
 Errata to version 1.0. A PATCH-level change. **No change to normative requirements** —
 productions conforming to 1.0 remain conformant with 1.0.1.

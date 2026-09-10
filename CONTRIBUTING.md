@@ -51,10 +51,47 @@ PRs are welcome for:
 
 Please keep both language versions in sync: a substantive change to one must be mirrored in the other (we can help with translation if needed).
 
-#### 3. Email us
+#### 3. Register an implementation
+
+If you have built a tool or system that implements APS, open an Issue with the
+`implementation` label using the *Implementation register entry* template. Listing is free
+of charge and non-exclusive, and it is not a product certification or a vendor
+recommendation. What an entry has to state, and the rules the register follows, are in
+[`IMPLEMENTATIONS.md`](IMPLEMENTATIONS.md). Rules for using the names "APS" and "AI
+Production Standard" are in [`TRADEMARK.md`](TRADEMARK.md).
+
+#### 4. Email us
 
 For sensitive feedback, partnership inquiries, or anything that doesn't fit a public thread:
 **hello@ai4.film**
+
+### How a proposal becomes a version
+
+A substantive proposal — one that changes, adds or removes a normative requirement — goes
+through a public consultation before it is adopted:
+
+1. **Public submission.** The proposal is opened as an Issue or a PR, with its rationale
+   and the requirement identifiers it touches. Nothing is negotiated privately.
+2. **Consultation of no less than 30 days.** The thread stays open for at least 30 days
+   from submission, so that producers, institutions and implementers have time to respond.
+   A longer period may be set for proposals that affect conformity.
+3. **Decision in the open.** Adoption, rejection or deferral is recorded in the thread with
+   reasons, and in [`CHANGELOG.md`](CHANGELOG.md) — including proposals that were not
+   adopted.
+4. **Release as a version.** The change enters the standard only through a new version,
+   with its own designation and release, under [`VERSIONING.md`](VERSIONING.md).
+
+**A change introduced outside this procedure is not a version of the standard.** It may be
+a fork, a derivative work or someone's private edit, but it is not APS and must not be
+described as such — see [`TRADEMARK.md`](TRADEMARK.md).
+
+Editorial corrections that do not touch a normative requirement — typographical errors,
+broken links, translation fixes — are outside this procedure and are handled as errata
+under [`VERSIONING.md`](VERSIONING.md).
+
+Who decides, and how that is to change, is described in [`GOVERNANCE.md`](GOVERNANCE.md).
+The model set out there is a proposal and has not been adopted; until it is, the
+specification editor maintains the standard under the procedure above.
 
 ### Editorial principles
 
@@ -130,10 +167,47 @@ Mile widziane PR-y dotyczące:
 
 Prosimy utrzymywać obie wersje językowe w synchronizacji: merytoryczna zmiana w jednej musi być odzwierciedlona w drugiej (chętnie pomożemy z tłumaczeniem).
 
-#### 3. Napisz do nas
+#### 3. Zgłoś implementację
+
+Jeżeli zbudowałeś narzędzie lub system wdrażający APS, otwórz Issue z etykietą
+`implementation`, korzystając z szablonu *Implementation register entry*. Wpis jest
+nieodpłatny i niewyłączny, nie jest certyfikacją produktu ani rekomendacją dostawcy. Co
+zgłoszenie musi zawierać i jakimi zasadami rządzi się rejestr, opisuje
+[`IMPLEMENTATIONS.md`](IMPLEMENTATIONS.md). Zasady posługiwania się nazwami „APS"
+i „AI Production Standard" opisuje [`TRADEMARK.md`](TRADEMARK.md).
+
+#### 4. Napisz do nas
 
 Dla feedbacku poufnego, zapytań partnerskich lub wszystkiego, co nie pasuje do publicznego wątku:
 **hello@ai4.film**
+
+### Jak propozycja staje się wersją
+
+Propozycja merytoryczna — zmieniająca, dodająca lub usuwająca wymaganie normatywne —
+przechodzi jawną konsultację, zanim zostanie przyjęta:
+
+1. **Jawne zgłoszenie.** Propozycja trafia do Issue albo PR, wraz z uzasadnieniem
+   i identyfikatorami wymagań, których dotyczy. Nic nie jest ustalane prywatnie.
+2. **Konsultacja nie krótsza niż 30 dni.** Wątek pozostaje otwarty co najmniej 30 dni od
+   zgłoszenia, aby producenci, instytucje i podmioty wdrażające zdążyli się wypowiedzieć.
+   Dla propozycji naruszających zgodność można wyznaczyć termin dłuższy.
+3. **Rozstrzygnięcie jawne.** Przyjęcie, odrzucenie albo odroczenie odnotowuje się
+   w wątku wraz z uzasadnieniem oraz w [`CHANGELOG.md`](CHANGELOG.md) — także wtedy, gdy
+   propozycji nie uwzględniono.
+4. **Wydanie jako wersja.** Zmiana wchodzi do standardu wyłącznie przez nową wersję,
+   z własnym oznaczeniem i wydaniem, w trybie [`VERSIONING.md`](VERSIONING.md).
+
+**Zmiana wprowadzona poza tym trybem nie jest wersją standardu.** Może być forkiem,
+opracowaniem albo czyjąś prywatną poprawką, ale nie jest APS i nie wolno jej tak
+nazywać — zob. [`TRADEMARK.md`](TRADEMARK.md).
+
+Poprawki redakcyjne nienaruszające wymagania normatywnego — literówki, zepsute odnośniki,
+korekty tłumaczenia — pozostają poza tym trybem i są obsługiwane jako errata w trybie
+[`VERSIONING.md`](VERSIONING.md).
+
+Kto decyduje i jak ma się to zmienić, opisuje [`GOVERNANCE.md`](GOVERNANCE.md). Model tam
+przedstawiony jest propozycją i nie został przyjęty; do czasu przyjęcia standard utrzymuje
+redaktor specyfikacji, w trybie opisanym wyżej.
 
 ### Zasady redakcyjne
 
