@@ -58,6 +58,44 @@ krótszym niż 30 dni. Zmiana wprowadzona poza tym trybem nie jest wersją stand
 opisuje `CONTRIBUTING.md`; model docelowy — `GOVERNANCE.md`. Do czasu jego przyjęcia
 obowiązuje ten tryb.
 
+## Praca z gitem
+
+Nazwy gałęzi, commitów i tagów są po angielsku. Gałąź zawsze z prefiksem wskazującym
+ścieżkę zmiany:
+
+| Prefiks | Zakres |
+|---|---|
+| `release/X.Y.Z` | wydanie wersji |
+| `proposal/…` | propozycja zmiany merytorycznej, podlegająca konsultacji |
+| `docs/…` | poprawka redakcyjna, metadane, pliki procesowe |
+
+Gałąź wchodzi do `main` przez **merge commit** — nigdy squash ani rebase. Squash zlepiłby
+kroki pracy w jeden commit i usunął ślad po pull requeście, a to jest dokładnie ta część
+historii, która ma pokazywać proces. Zaraz po merge'u gałąź się kasuje
+(`gh pr merge N --merge --delete-branch`); punkty wydań trzymają tagi, a przebieg prac —
+merge commity.
+
+Commit ma tryb rozkazujący, jedną linię, bez kropki na końcu, i mówi, co zmiana robi ze
+standardem, nie który plik został ruszony. Gałąź wydania niesie jeden commit:
+`Publish version X.Y.Z`.
+
+Tag wydania jest anotowany (`git tag -a`), nazywa się `vX.Y.Z` i stoi **na merge commicie
+w `main`**, nie na commicie wewnątrz gałęzi — tag wskazuje stan gałęzi głównej. Treść tagu
+ma stałą budowę: linia tytułowa `APS X.Y.Z (rok)`, czym jest wersja, zdanie o wpływie na
+deklaracje zgodności, concept DOI.
+
+Teksty pull requesta, tagu, opisu wydania i metadanych Zenodo powstają przed wykonaniem,
+jako nieśledzone pliki `*-X.Y.Z.*` w katalogu głównym. Nie wchodzą do repozytorium; służą
+temu, żeby treść wydania była przemyślana wcześniej, a nie pisana w okienku przeglądarki.
+
+Gałąź `main` jest chroniona po stronie GitHuba: wymagany pull request, zakaz force push
+i usunięcia, ochrona obowiązuje również administratora. Zniesienie jej na czas jednej
+operacji jest świadomym odstępstwem i wraca się z niego od razu.
+
+Historia sprzed przyjęcia tych zasad ich nie spełnia — najwcześniejsze commity są po
+polsku, tagi `v1.0` i `v1.0.1` nie stoją na merge commitach, a część zmian trafiła wprost
+na `main`. Historii opublikowanego standardu się nie przepisuje.
+
 ## Wymagania normatywne
 
 Nie zmieniaj treści ani identyfikatorów wymagań `APS-*` bez wyraźnego polecenia.
