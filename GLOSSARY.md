@@ -92,8 +92,8 @@ Fixed. Do not vary across documents or versions.
 | errata | errata |
 | deklaracja zgodności | declaration of conformity |
 
-> Level names are retained for 1.0.1 only. Version 2.0 removes the level structure —
-> see the changelog.
+> Level names are retained for the 1.0.x line only. Version 2.0 removes the level
+> structure — see the changelog.
 
 ## Standards and frameworks · Standardy
 

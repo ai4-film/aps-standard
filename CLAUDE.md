@@ -7,7 +7,7 @@ Wiadomość commita zawiera dokładnie to, co podał autor — bez dodatkowych s
 odnośników do sesji i atrybucji narzędzi.
 
 Nie jest to ograniczenie ujawnienia. Użycie AI przy opracowaniu standardu jest ujawnione
-w kolofonie „Metodologia opracowania" (`docs/APS_v1.0.1_*.md`) — w jednym miejscu,
+w kolofonie „Metodologia opracowania" (`docs/APS_v1.0.2_*.md`) — w jednym miejscu,
 w pełnym brzmieniu i trwale. Znaczniki w metadanych gita dawałyby rejestr wyrywkowy,
 sugerujący nieprawdziwie, że commity bez znacznika powstały bez udziału narzędzi.
 

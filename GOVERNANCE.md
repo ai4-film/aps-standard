@@ -28,9 +28,10 @@ absence of software.
 
 APS was drafted in February 2026, published on 6 May 2026, and formally submitted on
 1 July 2026 to PISF, MKiDN, SFP (Polish Filmmakers Association) and ZZF (Polish Film
-Directors' Guild). Version 1.0.1 was published on 2 September 2026. The whole is released
-under the Apache 2.0 licence, which means any party may implement, modify and use it
-commercially, free of charge and without separate permission from the author.
+Directors' Guild). Versions 1.0.1 and 1.0.2 were published on 2 and 11 September 2026.
+The whole is released under the Apache 2.0 licence, which means any party may implement,
+modify and use it commercially, free of charge and without separate permission from the
+author.
 
 ### 3. Principle
 
@@ -95,7 +96,7 @@ verification dates, are in [`LEGAL-REFERENCES.md`](LEGAL-REFERENCES.md).
 
 ### 9. Proposed first step
 
-Adoption of version 1.0.1 as a working baseline, convening the Council within the working
+Adoption of version 1.0.2 as a working baseline, convening the Council within the working
 group, and 90 days of consultation leading to version 1.1.
 
 ---
@@ -114,9 +115,10 @@ brak oprogramowania.
 ### 2. Punkt wyjścia
 
 APS został sporządzony w lutym 2026, opublikowany 6 maja 2026, a 1 lipca 2026 formalnie
-przekazany PISF, MKiDN, SFP oraz ZZF. Wersja 1.0.1 została opublikowana 2 września 2026.
-Całość udostępniono na licencji Apache 2.0, co oznacza, że każdy podmiot może ją wdrożyć,
-zmieniać i wykorzystywać komercyjnie, nieodpłatnie i bez odrębnej zgody autora.
+przekazany PISF, MKiDN, SFP oraz ZZF. Wersje 1.0.1 i 1.0.2 zostały opublikowane 2 i 11
+września 2026. Całość udostępniono na licencji Apache 2.0, co oznacza, że każdy podmiot
+może ją wdrożyć, zmieniać i wykorzystywać komercyjnie, nieodpłatnie i bez odrębnej zgody
+autora.
 
 ### 3. Zasada
 
@@ -179,7 +181,7 @@ weryfikacji, znajdują się w [`LEGAL-REFERENCES.md`](LEGAL-REFERENCES.md).
 
 ### 9. Proponowany pierwszy krok
 
-Przyjęcie wersji 1.0.1 jako bazy roboczej, powołanie Rady w ramach grupy roboczej oraz
+Przyjęcie wersji 1.0.2 jako bazy roboczej, powołanie Rady w ramach grupy roboczej oraz
 90 dni konsultacji prowadzących do wersji 1.1.
 
 ---

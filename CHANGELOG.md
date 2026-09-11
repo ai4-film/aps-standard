@@ -44,16 +44,17 @@ In progress. A MAJOR change — requires a new declaration of conformity.
 
 ---
 
-## [1.0.2] — pending publication
+## [1.0.2] — published 11 September 2026
 
-A PATCH-level change adding the attribution and governance layer of the repository.
-**No normative requirement (`APS-*`) is changed, added or removed**, no requirement
-identifier is altered, and no text of a published version in `docs/` is touched.
-A declaration of conformity with 1.0 or 1.0.1 remains valid and requires no action.
+A PATCH-level change adding the attribution and governance layer, and reissuing the
+standard under the 1.0.2 designation so that the document itself carries it. **No
+normative requirement (`APS-*`) is changed, added or removed** and no requirement
+identifier is altered: the 63 requirements in `docs/APS_v1.0.2_*` are identical in wording
+to `docs/APS_v1.0.1_*`, and the reissue touches only the version markers and the
+informational sections. A declaration of conformity with 1.0 or 1.0.1 remains valid and
+requires no action.
 
-> The date of publication is set when the version is released, in accordance with
-> [`VERSIONING.md`](VERSIONING.md). The version designation refers to the date of
-> publication, not to the date the change was prepared.
+Versions 1.0 and 1.0.1 remain published and unmodified.
 
 ### Added
 - `NOTICE` — attribution required by Section 4 of the Apache 2.0 licence, with the
@@ -79,6 +80,15 @@ A declaration of conformity with 1.0 or 1.0.1 remains valid and requires no acti
   introduced outside that procedure is not a version of the standard
 - `CLAUDE.md`: sections on technological neutrality, on the name and conformance, and on
   the procedure for changes
+- `docs/APS_v1.0.2_PL.md`, `docs/APS_v1.0.2_EN.md` — reissue of the standard under the
+  1.0.2 designation. The document gains an informational section covering governance, the
+  use of the name, the implementation register and the citation format. Its links are
+  absolute, so that they resolve from the PDF and DOCX renderings, which are the form in
+  which the standard is distributed through Zenodo
+- `docs/APS_v1.0.2_summary.md` — bilingual summary. Moved into `docs/` so that every file
+  deposited with a release has a source tracked in the repository; previously the summary
+  existed only in the untracked `build/` directory and could not be regenerated from a
+  clone
 
 ### Changed
 - `README.md`: the date of first publication (6 May 2026) and the date of the current
@@ -87,6 +97,14 @@ A declaration of conformity with 1.0 or 1.0.1 remains valid and requires no acti
 - `VERSIONING.md`: reference to `GOVERNANCE.md` where the question of who decides on
   changes arises
 - `CHANGELOG.md`: the 1.0.1 entry now carries the day of publication, not only the month
+- `CITATION.cff`: version 1.0.2, release date, and the author's ORCID, which was a
+  placeholder
+- `VERSIONING.md`: the citation format carries the concept DOI `10.5281/zenodo.22690397`
+  in place of the `zenodo.XXXXXXX` placeholder, and distinguishes it from the DOI of a
+  specific version, which is what a binding citation in delivery documentation states
+- `README.md`: version designation, links to the text and the declaration template
+  updated to 1.0.2; the DOI stated for the first time
+- `METHODOLOGY.md`: 1.0.2 added to the register of version colophons
 
 ---
 
