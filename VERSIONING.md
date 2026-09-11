@@ -100,7 +100,7 @@ Two DOIs stand side by side. The **concept DOI** `10.5281/zenodo.22690397` cover
 version and always resolves to the most recent one; it is the right form for referring to
 the standard as such. Each version additionally receives its **own DOI**, which resolves
 to that version and no other — `10.5281/zenodo.22690398` for 1.0, `10.5281/zenodo.22691242`
-for 1.0.1.
+for 1.0.1, `10.5281/zenodo.22702647` for 1.0.2.
 
 **A citation in delivery documentation states the DOI of the version**, for the same
 reason that a declaration of conformity states a version: the concept DOI will point
