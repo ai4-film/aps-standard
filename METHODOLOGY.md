@@ -24,6 +24,7 @@ contribution, and all substantive decisions are the author's.
 |---|---|---|
 | 1.0 | 6 May 2026 | none — the colophon was introduced in 1.0.1 |
 | 1.0.1 | 2 September 2026 | [`docs/APS_v1.0.1_PL.md`](docs/APS_v1.0.1_PL.md), [`docs/APS_v1.0.1_EN.md`](docs/APS_v1.0.1_EN.md) |
+| 1.0.2 | 11 September 2026 | [`docs/APS_v1.0.2_PL.md`](docs/APS_v1.0.2_PL.md), [`docs/APS_v1.0.2_EN.md`](docs/APS_v1.0.2_EN.md) |
 
 The absence of a colophon in 1.0 is not corrected in the text of 1.0, which is closed.
 Version 1.0.1 added the disclosure and it applies to the drafting work that produced both
@@ -79,6 +80,7 @@ wkładu twórczego oraz wszystkie rozstrzygnięcia merytoryczne pochodzą od aut
 |---|---|---|
 | 1.0 | 6 maja 2026 | brak — kolofon wprowadzono w wersji 1.0.1 |
 | 1.0.1 | 2 września 2026 | [`docs/APS_v1.0.1_PL.md`](docs/APS_v1.0.1_PL.md), [`docs/APS_v1.0.1_EN.md`](docs/APS_v1.0.1_EN.md) |
+| 1.0.2 | 11 września 2026 | [`docs/APS_v1.0.2_PL.md`](docs/APS_v1.0.2_PL.md), [`docs/APS_v1.0.2_EN.md`](docs/APS_v1.0.2_EN.md) |
 
 Brak kolofonu w wersji 1.0 nie jest poprawiany w jej treści, ponieważ wersja jest
 zamknięta. Wersja 1.0.1 dołożyła ujawnienie i odnosi się ono do pracy redakcyjnej nad

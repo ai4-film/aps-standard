@@ -15,7 +15,10 @@ sources — at most they indicate where to look.
 
 ---
 
-## Citations present in APS 1.0.1
+## Citations present in APS 1.0.1 and 1.0.2
+
+Version 1.0.2 reissues the text of 1.0.1 without changing any statement about the law, so
+a single register covers both.
 
 | # | Statement | Section | Primary source | Verified | Notes |
 |---|---|---|---|---|---|

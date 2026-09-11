@@ -12,13 +12,13 @@ authors:
     affiliation: "Udyssey Creative Technologies"
     city: Warsaw
     country: PL
-    # orcid: "https://orcid.org/0000-0000-0000-0000"   # TO BE COMPLETED, if the author has an ORCID
+    orcid: "https://orcid.org/0000-0003-4472-9672"
 repository-code: "https://github.com/ai4-film/aps-standard"
 url: "https://ai4.film"
 license: Apache-2.0
 # Reflects the most recently published version. Bump on release, not on merge.
-version: "1.0.1"
-date-released: "2026-09-02"
+version: "1.0.2"
+date-released: "2026-09-11"
 keywords:
   - AI
   - film production
@@ -26,4 +26,6 @@ keywords:
   - chain of title
   - AI disclosure
   - audiovisual
-# doi: "10.5281/zenodo.XXXXXXX"   # TO BE COMPLETED after registration in Zenodo
+# Concept DOI: covers all versions and resolves to the most recent one. The DOI of a
+# specific version is given in that version's Zenodo record — see VERSIONING.md.
+doi: "10.5281/zenodo.22690397"

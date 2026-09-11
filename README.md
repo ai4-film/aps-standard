@@ -6,7 +6,7 @@ własności intelektualnej w produkcji audiowizualnej.
 *An open standard for documenting AI use and managing intellectual property rights in
 audiovisual production.*
 
-**Pierwsza publikacja / first published: 6 maja / May 2026** · **aktualna wersja / current version: APS 1.0.1 (2 września / September 2026)**
+**Pierwsza publikacja / first published: 6 maja / May 2026** · **aktualna wersja / current version: APS 1.0.2 (11 września / September 2026)**
 
 [pobierz / download](../../releases/latest) · [errata do 1.0](ERRATA-1.0.md) · [historia zmian / changelog](CHANGELOG.md) · [zarządzanie / governance](GOVERNANCE.md) · [znaki / trademarks](TRADEMARK.md) · [implementacje / implementations](IMPLEMENTATIONS.md) · [metodologia / methodology](METHODOLOGY.md)
 
@@ -27,10 +27,10 @@ requirements: classification of AI-involved content, an AI Registry, documentati
 human creative contribution, verification of provider terms of service, and AI Disclosure
 as part of the delivery package.
 
-The current version is **APS 1.0.1**, published 2 September 2026, status *Draft for
+The current version is **APS 1.0.2**, published 11 September 2026, status *Draft for
 Public Review*; APS was first published on 6 May 2026 and work on version 2.0 is in
 progress. The full English text is in
-[`docs/APS_v1.0.1_EN.md`](docs/APS_v1.0.1_EN.md). The standard is published in Polish and
+[`docs/APS_v1.0.2_EN.md`](docs/APS_v1.0.2_EN.md). The standard is published in Polish and
 English; **the Polish text governs** in case of discrepancy, as part of its requirements
 rest on Polish copyright law. Terminology follows [`GLOSSARY.md`](GLOSSARY.md).
 
@@ -44,7 +44,11 @@ APS is not legal advice and creates no presumption of conformity with Regulation
 **License:** Apache License, Version 2.0 — see [`LICENSE`](LICENSE) and
 [`NOTICE`](NOTICE).
 
-**Version:** 1.0.1, published 2 September 2026. First published: 6 May 2026.
+**Version:** 1.0.2, published 11 September 2026. First published: 6 May 2026.
+
+**DOI:** [10.5281/zenodo.22690397](https://doi.org/10.5281/zenodo.22690397) — covers all
+versions and resolves to the most recent. A binding citation states the DOI of the
+version; see [`VERSIONING.md`](VERSIONING.md).
 
 **Repository:** https://github.com/ai4-film/aps-standard
 
@@ -71,7 +75,7 @@ Discussions tab, or write to `hello@ai4.film`. See [`CONTRIBUTING.md`](CONTRIBUT
 ---
 
 > **Status: Draft for Public Review.** Dokument jest projektem otwartym na uwagi.
-> Pierwsza publikacja: 6 maja 2026. Aktualna wersja: 1.0.1 z 2 września 2026.
+> Pierwsza publikacja: 6 maja 2026. Aktualna wersja: 1.0.2 z 11 września 2026.
 > Trwają prace nad wersją 2.0 — zakres zmian w [CHANGELOG](CHANGELOG.md).
 
 ## Po co to jest
@@ -123,8 +127,8 @@ prawnego.
 
 | Wersja | Status |
 |---|---|
-| polska — [`APS_v1.0.1_PL.md`](docs/APS_v1.0.1_PL.md) | **rozstrzygająca** |
-| angielska — [`APS_v1.0.1_EN.md`](docs/APS_v1.0.1_EN.md) | tłumaczenie referencyjne |
+| polska — [`APS_v1.0.2_PL.md`](docs/APS_v1.0.2_PL.md) | **rozstrzygająca** |
+| angielska — [`APS_v1.0.2_EN.md`](docs/APS_v1.0.2_EN.md) | tłumaczenie referencyjne |
 
 Terminologia obu wersji podlega słownikowi [`GLOSSARY.md`](GLOSSARY.md); terminy pochodzące
 z rozporządzenia (UE) 2024/1689 stosowane są w oficjalnym brzmieniu tego aktu.
@@ -155,7 +159,7 @@ Kwestia tego, czy od wersji 2.0 angielski stanie się równorzędny, pozostaje o
 
 Deklaracja musi wskazywać wersję standardu:
 
-> Produkcja prowadzona zgodnie z AI Production Standard (APS) 1.0.1 (2026).
+> Produkcja prowadzona zgodnie z AI Production Standard (APS) 1.0.2 (2026).
 
 Deklaracja bez wskazania wersji jest bezskuteczna. Zasady w [`VERSIONING.md`](VERSIONING.md).
 
@@ -199,7 +203,11 @@ Zgodnie z klasyfikacją z rozdziału 2 standardu, dokument stanowi treść **kat
 **Licencja:** Apache License, Version 2.0 — zob. [`LICENSE`](LICENSE) i
 [`NOTICE`](NOTICE).
 
-**Wersja:** 1.0.1, opublikowana 2 września 2026. Pierwsza publikacja: 6 maja 2026.
+**Wersja:** 1.0.2, opublikowana 11 września 2026. Pierwsza publikacja: 6 maja 2026.
+
+**DOI:** [10.5281/zenodo.22690397](https://doi.org/10.5281/zenodo.22690397) — obejmuje
+wszystkie wersje i prowadzi do najnowszej. Cytowanie wiążące wskazuje DOI konkretnej
+wersji, zob. [`VERSIONING.md`](VERSIONING.md).
 
 **Repozytorium:** https://github.com/ai4-film/aps-standard
 

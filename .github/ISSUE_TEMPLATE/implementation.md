@@ -24,7 +24,7 @@ w tym wątku.
 
 ### 2. APS version implemented / Wdrażana wersja APS
 
-<!-- e.g. 1.0.1 / np. 1.0.1 -->
+<!-- e.g. 1.0.2 / np. 1.0.2 -->
 
 ### 3. Components supported / Obsługiwane komponenty
 
