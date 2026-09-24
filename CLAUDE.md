@@ -68,6 +68,7 @@ Nazwy gałęzi, commitów i tagów są po angielsku. Gałąź zawsze z prefiksem
 | `release/X.Y.Z` | wydanie wersji |
 | `proposal/…` | propozycja zmiany merytorycznej, podlegająca konsultacji |
 | `docs/…` | poprawka redakcyjna, metadane, pliki procesowe |
+| `site/…` | strona wprowadzająca pod `ai4.film`, katalog `site/` |
 
 Gałąź wchodzi do `main` przez **merge commit** — nigdy squash ani rebase. Squash zlepiłby
 kroki pracy w jeden commit i usunął ślad po pull requeście, a to jest dokładnie ta część
