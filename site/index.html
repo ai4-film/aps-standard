@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>APS: otwarty standard dokumentowania AI w produkcji filmowej | AI4.FILM</title>
+<meta name="description" content="APS (AI Production Standard) to otwarty standard dokumentowania użycia AI i zarządzania prawami w produkcji audiowizualnej. Wersja 1.0.2, licencja Apache 2.0.">
+<link rel="canonical" href="https://ai4.film/">
+<link rel="alternate" hreflang="pl" href="https://ai4.film/">
+<link rel="alternate" hreflang="en" href="https://ai4.film/en/">
+<link rel="alternate" hreflang="x-default" href="https://ai4.film/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pl_PL">
+<meta property="og:locale:alternate" content="en_GB">
+<meta property="og:site_name" content="AI4.FILM">
+<meta property="og:url" content="https://ai4.film/">
+<meta property="og:title" content="APS: otwarty standard dokumentowania AI w produkcji filmowej">
+<meta property="og:description" content="Co producent powinien zapisać, gdy w produkcji użyto narzędzi AI: jakie narzędzie, na jakich warunkach, z jakim udziałem człowieka. Wersja 1.0.2, Apache 2.0.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%20100'%3E%3Ctext%20y='.9em'%20font-size='90'%3E%F0%9F%8E%AC%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&amp;family=Courier+Prime:wght@400;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+
+<a class="skip" href="#main">Przejdź do treści</a>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="/">AI4.FILM</a>
+    <nav aria-label="Menu">
+      <a class="hide-sm" href="#dlaczego">Dlaczego</a>
+      <a class="hide-sm" href="#zakres">Zakres</a>
+      <a class="hide-sm" href="#wersje">Wersje</a>
+      <a href="https://github.com/ai4-film/aps-standard">GitHub</a>
+      <div class="lang">
+        <span class="here" aria-current="page">PL</span>
+        <a href="/en/" hreflang="en" lang="en">EN</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <h1>Otwarty standard dokumentowania AI w produkcji filmowej</h1>
+      <p class="lead">APS (AI Production Standard) określa, co producent powinien zapisać, gdy na dowolnym etapie produkcji używa narzędzi AI: jakie narzędzie, na jakich warunkach, z jakim udziałem człowieka i z jakim skutkiem dla praw do filmu.</p>
+      <div class="actions">
+        <a class="btn primary" href="https://github.com/ai4-film/aps-standard/blob/main/docs/APS_v1.0.2_PL.md">Czytaj standard na GitHubie</a>
+        <a class="btn ghost" href="https://doi.org/10.5281/zenodo.22702647">Pobierz wersję 1.0.2 (Zenodo)</a>
+      </div>
+      <p class="facts">Wersja 1.0.2 z 11 września 2026. Status: projekt roboczy (Draft for Public Review). Licencja Apache 2.0, bezpłatny, również do użytku komercyjnego. Rozstrzyga tekst polski; wersja angielska jest tłumaczeniem referencyjnym.</p>
+    </div>
+
+    <figure class="sheet">
+      <div class="sheet-head">
+        <span>Rejestr AI, wpis 0147</span>
+        <small>przykład</small>
+      </div>
+      <dl>
+        <dt>Narzędzie i wersja</dt>
+        <dd>[nazwa i wersja narzędzia] <span class="req">APS-REG-001</span></dd>
+
+        <dt>Dostawca, data weryfikacji ToS</dt>
+        <dd>[dostawca], 22.06.2026 <span class="req">APS-REG-002</span></dd>
+
+        <dt>Etap produkcji</dt>
+        <dd>postprodukcja obrazu <span class="req">APS-REG-003</span></dd>
+
+        <dt>Opis zastosowania</dt>
+        <dd>upscaling materiału archiwalnego, ujęcie 24 / 3 <span class="req">APS-REG-004</span></dd>
+
+        <dt>Kategoria treści</dt>
+        <dd>A, AI jako narzędzie pomocnicze <span class="req">APS-REG-005</span></dd>
+
+        <dt>Użytek komercyjny wg ToS</dt>
+        <dd>dozwolony, plan komercyjny <span class="req">APS-REG-007</span></dd>
+
+        <dt>Ocena ryzyka prawnego</dt>
+        <dd>średnie: licencja archiwum musi obejmować modyfikację przez AI <span class="req">APS-REG-009, APS-VFX-004</span></dd>
+
+        <dt>Snapshot ToS</dt>
+        <dd>PDF, zarchiwizowany 22.06.2026 <span class="req">APS-REG-010</span></dd>
+      </dl>
+      <figcaption>Dane są przykładowe. Tak wygląda jeden wpis, z którego potem powstaje dokumentacja chain of title i AI Disclosure.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="why" id="dlaczego">
+  <div class="wrap">
+    <h2>Dlaczego powstał ten standard</h2>
+    <div class="prose">
+      <p>Od ponad dwudziestu lat pracuję w produkcji filmowej i widzę, że w pracy z AI najtrudniejsze nie są same narzędzia. Najtrudniej odpowiedzieć później na pytania, które zada dystrybutor, koproducent, platforma albo ubezpieczyciel: czym to zostało zrobione, na jakich warunkach i kto ma do tego prawa.</p>
+      <p>Producent w każdej umowie składa oświadczenia i zapewnienia o prawach do filmu. Przy materiale powstałym z udziałem AI często nie ma ich czym podeprzeć. Duże studia mają na to działy prawne. Niezależny producent ponosi to samo ryzyko, tylko bez tej infrastruktury. Moim zdaniem to jest dziś największa luka i do niego ten standard jest przede wszystkim adresowany.</p>
+      <p>Druga sprawa: warunki korzystania z narzędzi AI zmieniają się co kilka miesięcy, a wersji obowiązującej w dniu generacji nikt za producenta nie przechowa. Jeśli nie zapisze się jej w trakcie pracy, później nie da się jej odtworzyć.</p>
+      <p>Do tego dochodzą obowiązki przejrzystości z unijnego aktu o AI i coraz konkretniejsze wymagania dystrybutorów. Istniejące inicjatywy zajmują się albo licencjonowaniem materiałów źródłowych, albo oznaczaniem gotowego dzieła. Brakowało warstwy pośrodku, czyli zapisu tego, co faktycznie działo się w trakcie produkcji.</p>
+      <p>APS jest próbą wypełnienia tej luki. Jest otwarty i bezpłatny, bo standard, za który trzeba płacić, nie stanie się wspólnym językiem branży.</p>
+      <p class="sig"><strong>Marcin Marczyk</strong>, autor standardu, Udyssey Creative Technologies</p>
+    </div>
+  </div>
+</section>
+
+<section id="zakres">
+  <div class="wrap">
+    <div class="parts">
+      <div>
+        <h2>Co obejmuje APS</h2>
+        <p>Standard ma zastosowanie do wszystkich form produkcji audiowizualnej: filmów fabularnych, dokumentów, filmów krótkometrażowych, treści seryjnych i webowych, reklam, teledysków oraz animacji, w których na dowolnym etapie wykorzystano narzędzia AI.</p>
+        <p>Wersja 1.0.2 zawiera 63 wymagania normatywne w dziesięciu grupach identyfikatorów, plus wymagania dla sześciu etapów produkcji: development, scenariusz, kosztorys, zdjęcia, postprodukcja obrazu i postprodukcja dźwięku.</p>
+      </div>
+      <dl>
+        <dt>Rejestr AI</dt>
+        <dd>Bieżąca ewidencja każdego użycia narzędzia AI: nazwa i wersja narzędzia, dostawca, etap produkcji, opis zastosowania, kategoria treści. Dziesięć wymagań, <code>APS-REG-001</code> do <code>APS-REG-010</code>.</dd>
+
+        <dt>Klasyfikacja treści AI</dt>
+        <dd>Trzy kategorie: A (treść ludzka, AI jako narzędzie pomocnicze), B (treść hybrydowa), C (treść wytworzona w całości przez AI). Od kategorii zależy zakres wymaganej dokumentacji i to, czy w ogóle jest czego bronić prawem autorskim.</dd>
+
+        <dt>Dokumentacja wkładu twórczego</dt>
+        <dd>Dla treści kategorii B i C: wersja pierwotna i finalna, historia edycji, pisemne oświadczenie twórcy o zakresie wkładu. To jest część chain of title, której przy materiale z AI najczęściej brakuje. <code>APS-COT-001</code> do <code>APS-COT-005</code>.</dd>
+
+        <dt>Weryfikacja warunków usług</dt>
+        <dd>Pięć pytań do ToS przed pierwszym użyciem narzędzia w produkcji komercyjnej, w tym o użytek komercyjny, o prawa do wygenerowanej treści i o klauzule indemnifikacyjne.</dd>
+
+        <dt>Snapshot warunków usług</dt>
+        <dd>Utrwalenie warunków obowiązujących w dniu użycia, w formie archiwum PDF albo linku z datą archiwizacji. <code>APS-REG-010</code>.</dd>
+
+        <dt>AI Disclosure</dt>
+        <dd>Oświadczenie o zakresie użycia AI jako element pakietu dostawy, weryfikowalne na podstawie Rejestru AI, a nie pisane osobno. <code>APS-DIS-001</code> do <code>APS-DIS-005</code>.</dd>
+
+        <dt>Ocena ryzyka prawnego</dt>
+        <dd>Przy wpisie w Rejestrze: niskie, średnie albo wysokie, wraz z uzasadnieniem. <code>APS-REG-009</code>.</dd>
+      </dl>
+    </div>
+
+    <div class="layers">
+      <h3>Gdzie APS się mieści</h3>
+      <div class="flow">
+        <div class="step">
+          <b>Wejście</b>
+          <span>Czym wolno się posłużyć: licencje do materiałów źródłowych, zgody na wizerunek i głos.</span>
+        </div>
+        <div class="arrow" aria-hidden="true">&rsaquo;</div>
+        <div class="step aps">
+          <b>APS</b>
+          <span>Co faktycznie działo się w trakcie produkcji: Rejestr AI, kategoria treści, wkład twórczy, snapshot warunków usług.</span>
+        </div>
+        <div class="arrow" aria-hidden="true">&rsaquo;</div>
+        <div class="step">
+          <b>Wyjście</b>
+          <span>Co trafia do pakietu dostawy: AI Disclosure, raport w formacie wymaganym przez platformę, metadane osadzone w pliku, jeśli platforma tego wymaga.</span>
+        </div>
+      </div>
+      <p class="note">APS nie zastępuje specyfikacji C2PA ani normy ISO/IEC 42001:2023. Pozostaje wobec nich komplementarny: dostarcza zapisu procesu, na którym można oprzeć jedno i drugie. Standard nie jest opinią prawną i nie tworzy domniemania zgodności z rozporządzeniem (UE) 2024/1689 ani z żadnym innym aktem prawnym.</p>
+    </div>
+  </div>
+</section>
+
+<section class="versions" id="wersje">
+  <div class="wrap">
+    <h2>Wersje</h2>
+    <ol class="revs">
+      <li class="r-white">
+        <div class="v">1.0</div>
+        <div class="d">6 maja 2026</div>
+        <p>Pierwsza publikacja standardu. Wersja wycofana, zawiera błędy poprawione w 1.0.1. Jej stosowanie nie jest zalecane.</p>
+        <span class="doi">10.5281/zenodo.22690398</span>
+      </li>
+      <li class="r-blue">
+        <div class="v">1.0.1</div>
+        <div class="d">2 września 2026</div>
+        <p>Errata do 1.0. Wycofano tabelę odwzorowania wymagań na akt o AI i powołanie na art. 13. Bez zmian normatywnych.</p>
+        <span class="doi">10.5281/zenodo.22691242</span>
+      </li>
+      <li class="r-pink">
+        <div class="v">1.0.2</div>
+        <div class="d">11 września 2026</div>
+        <p>Wersja aktualna. Warstwa atrybucji, propozycja zarządzania standardem, otwarty rejestr wdrożeń. Bez zmian normatywnych: deklaracja zgodności z 1.0 lub 1.0.1 pozostaje ważna.</p>
+        <span class="doi">10.5281/zenodo.22702647</span>
+      </li>
+      <li class="r-yellow">
+        <div class="v">2.0</div>
+        <div class="d">w opracowaniu</div>
+        <p>Jeden standard oparty na odtwarzalności dowodu, bez podziału na poziomy PODSTAWOWY, ROZSZERZONY i ENTERPRISE. Zmiana MAJOR: będzie wymagać nowej deklaracji zgodności. Zakres prac w historii zmian.</p>
+      </li>
+    </ol>
+    <p class="note">Kolory wersji odpowiadają kolejności stron poprawek w scenariuszu: biały, niebieski, różowy, żółty. Opublikowana wersja standardu nigdy nie jest modyfikowana, każda poprawka wychodzi jako nowa wersja. Zasady w <a href="https://github.com/ai4-film/aps-standard/blob/main/VERSIONING.md">polityce wersjonowania</a>, pełna historia w <a href="https://github.com/ai4-film/aps-standard/blob/main/CHANGELOG.md">historii zmian</a>.</p>
+  </div>
+</section>
+
+<section class="join" id="udzial">
+  <div class="wrap">
+    <h2>Jak się włączyć</h2>
+    <ul>
+      <li><b><a href="https://github.com/ai4-film/aps-standard/issues/new?template=requirement_feedback.md">Zgłoś uwagę do wymagania</a></b>Podaj identyfikator, na przykład <code>APS-REG-010</code>. Każda uwaga trafia do publicznego wątku w repozytorium i jest odnotowywana w historii zmian, także wtedy, gdy nie została uwzględniona.</li>
+      <li><b><a href="https://github.com/ai4-film/aps-standard/blob/main/CONTRIBUTING.md">Weź udział w pracach nad APS 2.0</a></b>Propozycja zmiany merytorycznej jest zgłaszana jawnie i podlega konsultacji nie krótszej niż 30 dni. Zmiana wprowadzona poza tym trybem nie jest wersją standardu.</li>
+      <li><b><a href="https://github.com/ai4-film/aps-standard/blob/main/IMPLEMENTATIONS.md">Zgłoś narzędzie do rejestru wdrożeń</a></b>Otwarty rejestr narzędzi i systemów wdrażających APS. Wpis jest nieodpłatny i niewyłączny, nie jest certyfikacją ani rekomendacją dostawcy.</li>
+      <li><b><a href="https://github.com/ai4-film/aps-standard/discussions">Dyskusja otwarta</a></b>Zakres standardu, praktyka branżowa, pytania o stosowanie APS w produkcji.</li>
+      <li><b><a href="mailto:hello@ai4.film">hello@ai4.film</a></b>Pytania, współpraca, wdrożenia w szkołach i instytucjach.</li>
+    </ul>
+    <p class="cite">Cytowanie: AI4.FILM, <em>AI Production Standard (APS) 1.0.2 (2026)</em>, DOI: <code>10.5281/zenodo.22702647</code>. Cytowanie w dokumentacji dostawy wskazuje DOI konkretnej wersji. DOI <code>10.5281/zenodo.22690397</code> obejmuje wszystkie wersje i prowadzi do najnowszej.</p>
+    <p class="cite">Deklaracja zgodności musi wskazywać wersję: „Produkcja prowadzona zgodnie z AI Production Standard (APS) 1.0.2 (2026)". Deklaracja bez wskazania wersji jest bezskuteczna.</p>
+  </div>
+</section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <span>APS jest publikowany na licencji <a href="https://github.com/ai4-film/aps-standard/blob/main/LICENSE">Apache 2.0</a>. Inicjatywa AI4.FILM. Autor: Marcin Marczyk.</span>
+    <span><a href="https://github.com/ai4-film/aps-standard">github.com/ai4-film/aps-standard</a></span>
+  </div>
+</footer>
+
+</body>
+</html>
